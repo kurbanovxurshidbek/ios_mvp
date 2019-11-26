@@ -3,29 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30CBD54C0C516CEAC0E109B4 /* Pods_ios_mvp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B01D4B4EDDF0F524A3CDAA0 /* Pods_ios_mvp.framework */; };
 		AEB5413A23755C87001FAB03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5413923755C87001FAB03 /* AppDelegate.swift */; };
 		AEB5413C23755C87001FAB03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5413B23755C87001FAB03 /* SceneDelegate.swift */; };
-		AEB5413E23755C87001FAB03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5413D23755C87001FAB03 /* ViewController.swift */; };
 		AEB5414123755C87001FAB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB5413F23755C87001FAB03 /* Main.storyboard */; };
 		AEB5414423755C87001FAB03 /* ios_mvp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEB5414223755C87001FAB03 /* ios_mvp.xcdatamodeld */; };
 		AEB5414623755C88001FAB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB5414523755C88001FAB03 /* Assets.xcassets */; };
 		AEB5414923755C88001FAB03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB5414723755C88001FAB03 /* LaunchScreen.storyboard */; };
+		AEB5415923755CDE001FAB03 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5415723755CDE001FAB03 /* LoginViewController.swift */; };
+		AEB5415A23755CDE001FAB03 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB5415823755CDE001FAB03 /* LoginViewController.xib */; };
+		AEB5415D23755CF1001FAB03 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5415B23755CF1001FAB03 /* HomeViewController.swift */; };
+		AEB5415E23755CF1001FAB03 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB5415C23755CF1001FAB03 /* HomeViewController.xib */; };
+		AEB5416023755D5B001FAB03 /* AlamHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5415F23755D5B001FAB03 /* AlamHttp.swift */; };
+		AEB5416223755DD1001FAB03 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5416123755DD1001FAB03 /* Utils.swift */; };
+		AEB5416423755DE1001FAB03 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5416323755DE1001FAB03 /* Result.swift */; };
+		AEB5416623755E25001FAB03 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5416523755E25001FAB03 /* BaseViewController.swift */; };
+		AEB5416823755FC0001FAB03 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5416723755FC0001FAB03 /* LoginView.swift */; };
+		AEB5416C23756052001FAB03 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB5416B23756052001FAB03 /* LoginPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B01D4B4EDDF0F524A3CDAA0 /* Pods_ios_mvp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_mvp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FC0494F753D0ADEEED4A0A /* Pods-ios_mvp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_mvp.release.xcconfig"; path = "Target Support Files/Pods-ios_mvp/Pods-ios_mvp.release.xcconfig"; sourceTree = "<group>"; };
 		AEB5413623755C87001FAB03 /* ios_mvp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_mvp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB5413923755C87001FAB03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB5413B23755C87001FAB03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AEB5413D23755C87001FAB03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AEB5414023755C87001FAB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEB5414323755C87001FAB03 /* ios_mvp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ios_mvp.xcdatamodel; sourceTree = "<group>"; };
 		AEB5414523755C88001FAB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEB5414823755C88001FAB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEB5414A23755C88001FAB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB5415723755CDE001FAB03 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AEB5415823755CDE001FAB03 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		AEB5415B23755CF1001FAB03 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AEB5415C23755CF1001FAB03 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		AEB5415F23755D5B001FAB03 /* AlamHttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamHttp.swift; sourceTree = "<group>"; };
+		AEB5416123755DD1001FAB03 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AEB5416323755DE1001FAB03 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		AEB5416523755E25001FAB03 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AEB5416723755FC0001FAB03 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AEB5416B23756052001FAB03 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		C5A22F3422081C92190E72B3 /* Pods-ios_mvp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_mvp.debug.xcconfig"; path = "Target Support Files/Pods-ios_mvp/Pods-ios_mvp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30CBD54C0C516CEAC0E109B4 /* Pods_ios_mvp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3220D56B753BC9B8AAAB5029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B01D4B4EDDF0F524A3CDAA0 /* Pods_ios_mvp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E289D4828E8A8150529BCEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5A22F3422081C92190E72B3 /* Pods-ios_mvp.debug.xcconfig */,
+				A1FC0494F753D0ADEEED4A0A /* Pods-ios_mvp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AEB5412D23755C87001FAB03 = {
 			isa = PBXGroup;
 			children = (
 				AEB5413823755C87001FAB03 /* ios_mvp */,
 				AEB5413723755C87001FAB03 /* Products */,
+				9E289D4828E8A8150529BCEB /* Pods */,
+				3220D56B753BC9B8AAAB5029 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +100,89 @@
 		AEB5413823755C87001FAB03 /* ios_mvp */ = {
 			isa = PBXGroup;
 			children = (
+				AEB5415423755CB8001FAB03 /* controller */,
+				AEB5415323755CB2001FAB03 /* model */,
+				AEB5415223755CA8001FAB03 /* network */,
+				AEB5415123755C9F001FAB03 /* helper */,
+				AEB5415023755C95001FAB03 /* assets */,
 				AEB5413923755C87001FAB03 /* AppDelegate.swift */,
 				AEB5413B23755C87001FAB03 /* SceneDelegate.swift */,
-				AEB5413D23755C87001FAB03 /* ViewController.swift */,
-				AEB5413F23755C87001FAB03 /* Main.storyboard */,
-				AEB5414523755C88001FAB03 /* Assets.xcassets */,
-				AEB5414723755C88001FAB03 /* LaunchScreen.storyboard */,
 				AEB5414A23755C88001FAB03 /* Info.plist */,
-				AEB5414223755C87001FAB03 /* ios_mvp.xcdatamodeld */,
 			);
 			path = ios_mvp;
+			sourceTree = "<group>";
+		};
+		AEB5415023755C95001FAB03 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				AEB5414523755C88001FAB03 /* Assets.xcassets */,
+				AEB5414223755C87001FAB03 /* ios_mvp.xcdatamodeld */,
+				AEB5414723755C88001FAB03 /* LaunchScreen.storyboard */,
+				AEB5413F23755C87001FAB03 /* Main.storyboard */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		AEB5415123755C9F001FAB03 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				AEB5416123755DD1001FAB03 /* Utils.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		AEB5415223755CA8001FAB03 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				AEB5415F23755D5B001FAB03 /* AlamHttp.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		AEB5415323755CB2001FAB03 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AEB5416323755DE1001FAB03 /* Result.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AEB5415423755CB8001FAB03 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEB5416523755E25001FAB03 /* BaseViewController.swift */,
+				AEB5415623755CC6001FAB03 /* home */,
+				AEB5415523755CC0001FAB03 /* login */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		AEB5415523755CC0001FAB03 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				AEB5415723755CDE001FAB03 /* LoginViewController.swift */,
+				AEB5415823755CDE001FAB03 /* LoginViewController.xib */,
+				AEB5416D23756068001FAB03 /* presenter */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		AEB5415623755CC6001FAB03 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				AEB5415B23755CF1001FAB03 /* HomeViewController.swift */,
+				AEB5415C23755CF1001FAB03 /* HomeViewController.xib */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		AEB5416D23756068001FAB03 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AEB5416B23756052001FAB03 /* LoginPresenter.swift */,
+				AEB5416723755FC0001FAB03 /* LoginView.swift */,
+			);
+			path = presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEB5414D23755C88001FAB03 /* Build configuration list for PBXNativeTarget "ios_mvp" */;
 			buildPhases = (
+				AAD7CDB2CD2EC71CFE41375E /* [CP] Check Pods Manifest.lock */,
 				AEB5413223755C87001FAB03 /* Sources */,
 				AEB5413323755C87001FAB03 /* Frameworks */,
 				AEB5413423755C87001FAB03 /* Resources */,
+				DA1818C74DE595360EF141CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,7 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB5415A23755CDE001FAB03 /* LoginViewController.xib in Resources */,
 				AEB5414923755C88001FAB03 /* LaunchScreen.storyboard in Resources */,
+				AEB5415E23755CF1001FAB03 /* HomeViewController.xib in Resources */,
 				AEB5414623755C88001FAB03 /* Assets.xcassets in Resources */,
 				AEB5414123755C87001FAB03 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +255,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AAD7CDB2CD2EC71CFE41375E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios_mvp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1818C74DE595360EF141CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_mvp/Pods-ios_mvp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios_mvp/Pods-ios_mvp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios_mvp/Pods-ios_mvp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEB5413223755C87001FAB03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB5413E23755C87001FAB03 /* ViewController.swift in Sources */,
 				AEB5414423755C87001FAB03 /* ios_mvp.xcdatamodeld in Sources */,
 				AEB5413A23755C87001FAB03 /* AppDelegate.swift in Sources */,
+				AEB5416C23756052001FAB03 /* LoginPresenter.swift in Sources */,
+				AEB5416023755D5B001FAB03 /* AlamHttp.swift in Sources */,
+				AEB5416223755DD1001FAB03 /* Utils.swift in Sources */,
+				AEB5415923755CDE001FAB03 /* LoginViewController.swift in Sources */,
+				AEB5416623755E25001FAB03 /* BaseViewController.swift in Sources */,
 				AEB5413C23755C87001FAB03 /* SceneDelegate.swift in Sources */,
+				AEB5416423755DE1001FAB03 /* Result.swift in Sources */,
+				AEB5416823755FC0001FAB03 /* LoginView.swift in Sources */,
+				AEB5415D23755CF1001FAB03 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +454,7 @@
 		};
 		AEB5414E23755C88001FAB03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A22F3422081C92190E72B3 /* Pods-ios_mvp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +464,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.universalhanaro.ios-mvp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -304,6 +474,7 @@
 		};
 		AEB5414F23755C88001FAB03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1FC0494F753D0ADEEED4A0A /* Pods-ios_mvp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -313,6 +484,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.universalhanaro.ios-mvp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
